@@ -1,0 +1,1 @@
+C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\FaceIdentifyApp.csproj;x64
