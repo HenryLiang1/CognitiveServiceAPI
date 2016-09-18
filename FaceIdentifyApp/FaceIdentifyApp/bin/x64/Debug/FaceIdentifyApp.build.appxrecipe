@@ -10,19 +10,19 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>2436e9e2-d734-45cc-8fe0-9e0616a9ea7b</PackageIdentityName>
     <PackageIdentityPublisher>CN=Henry</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\FaceIdentifyApp.exe">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\FaceIdentifyApp.exe">
       <PackagePath>entrypoint\FaceIdentifyApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\A8859\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -352,46 +352,46 @@
     <AppxPackagedFile Include="C:\Users\A8859\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\FaceIdentifyApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\FaceIdentifyApp.xr.xml">
       <PackagePath>FaceIdentifyApp.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\A8859\Desktop\VS Desktop\Visual C#\Microsoft Cognitive API\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\Core\FaceIdentifyApp.exe">
+    <AppxPackagedFile Include="C:\Users\A8859\Documents\CognitiveServiceAPI\FaceIdentifyApp\FaceIdentifyApp\bin\x64\Debug\Core\FaceIdentifyApp.exe">
       <PackagePath>FaceIdentifyApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

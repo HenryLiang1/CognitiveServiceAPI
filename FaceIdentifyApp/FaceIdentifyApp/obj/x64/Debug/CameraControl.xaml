@@ -10,8 +10,9 @@
     d:DesignWidth="400">
 
     <Grid>
-        <CaptureElement x:Name="captureElement" FlowDirection="RightToLeft" />
-        <Canvas x:Name="VisualizationCanvas" Grid.Row="1" VerticalAlignment="Stretch" FlowDirection="RightToLeft" />
-        <Image x:Name="imagePreview" Stretch="Uniform" FlowDirection="RightToLeft"/>
+        <CaptureElement x:ConnectionId='1' x:Name="captureElement" FlowDirection="RightToLeft" />
+        <Canvas x:ConnectionId='2' x:Name="VisualizationCanvas" Grid.Row="1" VerticalAlignment="Stretch" FlowDirection="RightToLeft" />
+        <Image x:ConnectionId='3' x:Name="imagePreview" Stretch="Uniform" FlowDirection="RightToLeft"/>
     </Grid>
 </UserControl>
+

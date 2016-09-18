@@ -132,15 +132,25 @@ namespace FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "FaceIdentifyApp.MainPage";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable = new string[8];
+            _typeNameTable[0] = "FaceIdentifyApp.Control.CameraControl";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[2] = "Windows.Media.Devices.CameraStreamState";
+            _typeNameTable[3] = "System.Enum";
+            _typeNameTable[4] = "System.ValueType";
+            _typeNameTable[5] = "Object";
+            _typeNameTable[6] = "FaceIdentifyApp.MainPage";
+            _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::FaceIdentifyApp.MainPage);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable = new global::System.Type[8];
+            _typeTable[0] = typeof(global::FaceIdentifyApp.Control.CameraControl);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[2] = typeof(global::Windows.Media.Devices.CameraStreamState);
+            _typeTable[3] = typeof(global::System.Enum);
+            _typeTable[4] = typeof(global::System.ValueType);
+            _typeTable[5] = typeof(global::System.Object);
+            _typeTable[6] = typeof(global::FaceIdentifyApp.MainPage);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +185,8 @@ namespace FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::FaceIdentifyApp.MainPage(); }
+        private object Activate_0_CameraControl() { return new global::FaceIdentifyApp.Control.CameraControl(); }
+        private object Activate_6_MainPage() { return new global::FaceIdentifyApp.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,18 +198,49 @@ namespace FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  FaceIdentifyApp.MainPage
-                userType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+            case 0:   //  FaceIdentifyApp.Control.CameraControl
+                userType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_0_CameraControl;
+                userType.AddMemberName("CameraStreamState");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.Page
+            case 1:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+            case 2:   //  Windows.Media.Devices.CameraStreamState
+                userType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("NotStreaming", global::Windows.Media.Devices.CameraStreamState.NotStreaming);
+                userType.AddEnumValue("Streaming", global::Windows.Media.Devices.CameraStreamState.Streaming);
+                userType.AddEnumValue("BlockedForPrivacy", global::Windows.Media.Devices.CameraStreamState.BlockedForPrivacy);
+                userType.AddEnumValue("Shutdown", global::Windows.Media.Devices.CameraStreamState.Shutdown);
+                xamlType = userType;
+                break;
+
+            case 3:   //  System.Enum
+                userType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 4:   //  System.ValueType
+                userType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 5:   //  Object
+                xamlType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 6:   //  FaceIdentifyApp.MainPage
+                userType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -206,11 +248,26 @@ namespace FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo
         }
 
 
+        private object get_0_CameraControl_CameraStreamState(object instance)
+        {
+            var that = (global::FaceIdentifyApp.Control.CameraControl)instance;
+            return that.CameraStreamState;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "FaceIdentifyApp.Control.CameraControl.CameraStreamState":
+                userType = (global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FaceIdentifyApp.Control.CameraControl");
+                xamlMember = new global::FaceIdentifyApp.FaceIdentifyApp_XamlTypeInfo.XamlMember(this, "CameraStreamState", "Windows.Media.Devices.CameraStreamState");
+                xamlMember.Getter = get_0_CameraControl_CameraStreamState;
+                xamlMember.SetIsReadOnly();
+                break;
+            }
             return xamlMember;
         }
     }
